@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Tarea01
 {
@@ -10,6 +7,8 @@ namespace Tarea01
     {
         static void Main(string[] args)
         {
+            Album Album1 = new Album();
+            Album1.nombre = "Love Yourself: Answer";
         }
     }
 }
