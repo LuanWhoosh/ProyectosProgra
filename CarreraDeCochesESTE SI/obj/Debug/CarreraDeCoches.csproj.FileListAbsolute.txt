@@ -5,3 +5,10 @@ C:\Users\andres.tellezsa\Documents\GitHub\HOLO\Sesiones progra\CarreraDeCoches\o
 C:\Users\andres.tellezsa\Documents\GitHub\HOLO\Sesiones progra\CarreraDeCoches\obj\Debug\CarreraDeCoches.csproj.CoreCompileInputs.cache
 C:\Users\andres.tellezsa\Documents\GitHub\HOLO\Sesiones progra\CarreraDeCoches\obj\Debug\CarreraDeCoches.exe
 C:\Users\andres.tellezsa\Documents\GitHub\HOLO\Sesiones progra\CarreraDeCoches\obj\Debug\CarreraDeCoches.pdb
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCochesESTE SI\bin\Debug\CarreraDeCoches.exe.config
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCochesESTE SI\bin\Debug\CarreraDeCoches.exe
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCochesESTE SI\bin\Debug\CarreraDeCoches.pdb
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCochesESTE SI\obj\Debug\CarreraDeCoches.csproj.AssemblyReference.cache
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCochesESTE SI\obj\Debug\CarreraDeCoches.csproj.CoreCompileInputs.cache
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCochesESTE SI\obj\Debug\CarreraDeCoches.exe
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCochesESTE SI\obj\Debug\CarreraDeCoches.pdb

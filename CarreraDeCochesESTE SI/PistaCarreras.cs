@@ -12,6 +12,7 @@ namespace CarreraDeCoches
         public string nombre;
 
         //Metodo que recibe dos parmetros 
+        //Declarar metodo
         public void Competir(Auto auto1, Auto auto2)
         {//Bloque o qué va a hacer el metodo
 
