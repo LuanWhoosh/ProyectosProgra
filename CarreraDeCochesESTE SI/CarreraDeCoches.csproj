@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7968A04E-5B7C-407F-807D-C21B0EAD8B35}</ProjectGuid>
+    <ProjectGuid>{DA8AB297-BD24-4C81-8A62-7E035C667A72}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>prueba_hipotetica</RootNamespace>
-    <AssemblyName>prueba hipotetica</AssemblyName>
+    <RootNamespace>CarreraDeCoches</RootNamespace>
+    <AssemblyName>CarreraDeCoches</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ayuda.cs" />
-    <Compile Include="ayuda2.cs" />
+    <Compile Include="Auto.cs" />
+    <Compile Include="Color.cs" />
+    <Compile Include="PistaCarreras.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
