@@ -1,0 +1,16 @@
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCoches\bin\Debug\net5.0\CarreraDeCoches.exe
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCoches\bin\Debug\net5.0\CarreraDeCoches.deps.json
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCoches\bin\Debug\net5.0\CarreraDeCoches.runtimeconfig.json
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCoches\bin\Debug\net5.0\CarreraDeCoches.runtimeconfig.dev.json
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCoches\bin\Debug\net5.0\CarreraDeCoches.dll
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCoches\bin\Debug\net5.0\ref\CarreraDeCoches.dll
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCoches\bin\Debug\net5.0\CarreraDeCoches.pdb
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCoches\obj\Debug\net5.0\CarreraDeCoches.csproj.AssemblyReference.cache
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCoches\obj\Debug\net5.0\CarreraDeCoches.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCoches\obj\Debug\net5.0\CarreraDeCoches.AssemblyInfoInputs.cache
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCoches\obj\Debug\net5.0\CarreraDeCoches.AssemblyInfo.cs
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCoches\obj\Debug\net5.0\CarreraDeCoches.csproj.CoreCompileInputs.cache
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCoches\obj\Debug\net5.0\CarreraDeCoches.dll
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCoches\obj\Debug\net5.0\ref\CarreraDeCoches.dll
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCoches\obj\Debug\net5.0\CarreraDeCoches.pdb
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\CarreraDeCoches\obj\Debug\net5.0\CarreraDeCoches.genruntimeconfig.cache
