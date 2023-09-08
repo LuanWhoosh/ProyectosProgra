@@ -1,0 +1,16 @@
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\ArreglosPractica080923\ArreglosPractica080923\bin\Debug\net5.0\ArreglosPractica080923.exe
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\ArreglosPractica080923\ArreglosPractica080923\bin\Debug\net5.0\ArreglosPractica080923.deps.json
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\ArreglosPractica080923\ArreglosPractica080923\bin\Debug\net5.0\ArreglosPractica080923.runtimeconfig.json
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\ArreglosPractica080923\ArreglosPractica080923\bin\Debug\net5.0\ArreglosPractica080923.runtimeconfig.dev.json
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\ArreglosPractica080923\ArreglosPractica080923\bin\Debug\net5.0\ArreglosPractica080923.dll
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\ArreglosPractica080923\ArreglosPractica080923\bin\Debug\net5.0\ref\ArreglosPractica080923.dll
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\ArreglosPractica080923\ArreglosPractica080923\bin\Debug\net5.0\ArreglosPractica080923.pdb
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\ArreglosPractica080923\ArreglosPractica080923\obj\Debug\net5.0\ArreglosPractica080923.csproj.AssemblyReference.cache
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\ArreglosPractica080923\ArreglosPractica080923\obj\Debug\net5.0\ArreglosPractica080923.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\ArreglosPractica080923\ArreglosPractica080923\obj\Debug\net5.0\ArreglosPractica080923.AssemblyInfoInputs.cache
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\ArreglosPractica080923\ArreglosPractica080923\obj\Debug\net5.0\ArreglosPractica080923.AssemblyInfo.cs
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\ArreglosPractica080923\ArreglosPractica080923\obj\Debug\net5.0\ArreglosPractica080923.csproj.CoreCompileInputs.cache
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\ArreglosPractica080923\ArreglosPractica080923\obj\Debug\net5.0\ArreglosPractica080923.dll
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\ArreglosPractica080923\ArreglosPractica080923\obj\Debug\net5.0\ref\ArreglosPractica080923.dll
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\ArreglosPractica080923\ArreglosPractica080923\obj\Debug\net5.0\ArreglosPractica080923.pdb
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\ArreglosPractica080923\ArreglosPractica080923\obj\Debug\net5.0\ArreglosPractica080923.genruntimeconfig.cache

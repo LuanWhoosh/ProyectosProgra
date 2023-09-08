@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ArreglosPractica080923/1.0.0": {
+        "runtime": {
+          "ArreglosPractica080923.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArreglosPractica080923/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
