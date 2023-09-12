@@ -2,7 +2,7 @@
 
 namespace Ejemplos//Declaración de espacio de nombres Ejemplos
 {
-    class Elefante//Declaración de clase Elefante dentro de namespace Ejemplos
+    class Elefante//Declaracióººn de clase Elefante dentro de namespace Ejemplos
     {
         public string Nombre;//Declaración de atributo Nombre dentro de clase Elefante
         public int Edad;//declaracion de atributo Edad dentro de clase Elefante
