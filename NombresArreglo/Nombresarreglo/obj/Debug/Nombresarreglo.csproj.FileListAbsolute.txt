@@ -5,3 +5,10 @@ C:\Users\Andy\Documents\GitHub\ProyectosProgra\Nombresarreglo\Nombresarreglo\obj
 C:\Users\Andy\Documents\GitHub\ProyectosProgra\Nombresarreglo\Nombresarreglo\obj\Debug\Nombresarreglo.csproj.CoreCompileInputs.cache
 C:\Users\Andy\Documents\GitHub\ProyectosProgra\Nombresarreglo\Nombresarreglo\obj\Debug\Nombresarreglo.exe
 C:\Users\Andy\Documents\GitHub\ProyectosProgra\Nombresarreglo\Nombresarreglo\obj\Debug\Nombresarreglo.pdb
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\NombresArreglo\Nombresarreglo\bin\Debug\Nombresarreglo.exe.config
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\NombresArreglo\Nombresarreglo\bin\Debug\Nombresarreglo.exe
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\NombresArreglo\Nombresarreglo\bin\Debug\Nombresarreglo.pdb
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\NombresArreglo\Nombresarreglo\obj\Debug\Nombresarreglo.csproj.AssemblyReference.cache
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\NombresArreglo\Nombresarreglo\obj\Debug\Nombresarreglo.csproj.CoreCompileInputs.cache
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\NombresArreglo\Nombresarreglo\obj\Debug\Nombresarreglo.exe
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\NombresArreglo\Nombresarreglo\obj\Debug\Nombresarreglo.pdb
