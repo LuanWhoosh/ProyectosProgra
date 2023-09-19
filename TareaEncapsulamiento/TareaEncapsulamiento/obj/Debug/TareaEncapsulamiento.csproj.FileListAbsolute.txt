@@ -1,0 +1,7 @@
+C:\Users\Andy\Documents\GitHub\ProyectosProgra\TareaEncapsulamiento\TareaEncapsulamiento\bin\Debug\TareaEncapsulamiento.exe.config
+C:\Users\Andy\Documents\GitHub\ProyectosProgra\TareaEncapsulamiento\TareaEncapsulamiento\bin\Debug\TareaEncapsulamiento.exe
+C:\Users\Andy\Documents\GitHub\ProyectosProgra\TareaEncapsulamiento\TareaEncapsulamiento\bin\Debug\TareaEncapsulamiento.pdb
+C:\Users\Andy\Documents\GitHub\ProyectosProgra\TareaEncapsulamiento\TareaEncapsulamiento\obj\Debug\TareaEncapsulamiento.csproj.AssemblyReference.cache
+C:\Users\Andy\Documents\GitHub\ProyectosProgra\TareaEncapsulamiento\TareaEncapsulamiento\obj\Debug\TareaEncapsulamiento.csproj.CoreCompileInputs.cache
+C:\Users\Andy\Documents\GitHub\ProyectosProgra\TareaEncapsulamiento\TareaEncapsulamiento\obj\Debug\TareaEncapsulamiento.exe
+C:\Users\Andy\Documents\GitHub\ProyectosProgra\TareaEncapsulamiento\TareaEncapsulamiento\obj\Debug\TareaEncapsulamiento.pdb
