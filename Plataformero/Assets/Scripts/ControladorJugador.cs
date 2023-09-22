@@ -5,7 +5,7 @@ using UnityEngine;
 public class ControladorJugador : MonoBehaviour
 {
     public float velocidadCaminar = 5;
-    public float fuerzaSalto = 20;
+    public float fuerzaSalto = 4;
     private Rigidbody2D miCuerpo;
     private Animator miAnimador;
     // Start is called before the first frame update
