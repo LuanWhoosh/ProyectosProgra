@@ -1,0 +1,16 @@
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\EjerciciosConstructores\bin\Debug\net5.0\EjerciciosConstructores.exe
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\EjerciciosConstructores\bin\Debug\net5.0\EjerciciosConstructores.deps.json
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\EjerciciosConstructores\bin\Debug\net5.0\EjerciciosConstructores.runtimeconfig.json
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\EjerciciosConstructores\bin\Debug\net5.0\EjerciciosConstructores.runtimeconfig.dev.json
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\EjerciciosConstructores\bin\Debug\net5.0\EjerciciosConstructores.dll
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\EjerciciosConstructores\bin\Debug\net5.0\ref\EjerciciosConstructores.dll
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\EjerciciosConstructores\bin\Debug\net5.0\EjerciciosConstructores.pdb
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\EjerciciosConstructores\obj\Debug\net5.0\EjerciciosConstructores.csproj.AssemblyReference.cache
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\EjerciciosConstructores\obj\Debug\net5.0\EjerciciosConstructores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\EjerciciosConstructores\obj\Debug\net5.0\EjerciciosConstructores.AssemblyInfoInputs.cache
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\EjerciciosConstructores\obj\Debug\net5.0\EjerciciosConstructores.AssemblyInfo.cs
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\EjerciciosConstructores\obj\Debug\net5.0\EjerciciosConstructores.csproj.CoreCompileInputs.cache
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\EjerciciosConstructores\obj\Debug\net5.0\EjerciciosConstructores.dll
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\EjerciciosConstructores\obj\Debug\net5.0\ref\EjerciciosConstructores.dll
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\EjerciciosConstructores\obj\Debug\net5.0\EjerciciosConstructores.pdb
+C:\Users\andrea.martinezl\Documents\GitHub\ProyectosProgra\EjerciciosConstructores\obj\Debug\net5.0\EjerciciosConstructores.genruntimeconfig.cache
