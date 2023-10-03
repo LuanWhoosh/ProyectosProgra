@@ -7,7 +7,9 @@ public class Personaje : MonoBehaviour
     public int hp = 70;
     public int hpMax = 100;
     public int vidas = 3;
+    public int vidasMax = 5;
     public int score = 0;
+    public int scoreMax = 350;
 
     void Start()
     {
