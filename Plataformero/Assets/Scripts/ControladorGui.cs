@@ -37,4 +37,7 @@ public class ControladorGui : MonoBehaviour
             = Villano.hp / (float)Villano.hpMax;
         BarraHPVillano.fillAmount = porcentajeHPVillano;
     }
+
+   
+   
 }

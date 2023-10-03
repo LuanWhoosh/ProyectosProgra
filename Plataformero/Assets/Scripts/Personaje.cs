@@ -21,4 +21,17 @@ public class Personaje : MonoBehaviour
     {
         
     }
+    //cuanto daño te hace y quien
+    public void hacerDanio(int puntosDanio, GameObject enemigo)
+    {
+        hp = hp - puntosDanio;
+        print(name + "recibre daño de " + puntosDanio + "por" + enemigo);
+    }
+
+    public void muerteInstan(int reducirVida, GameObject deadZone)
+    {
+        vidas = vidas- reducirVida;
+        hp = 0;
+        print(name + "se reduce " + reducirVida + "vida por" + deadZone);
+    }
 }
