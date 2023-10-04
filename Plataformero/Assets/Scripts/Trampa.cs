@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Trampa : MonoBehaviour
+
+    
 {
+    public GameObject splashBloodPrefab;
+
     private void OnCollisionEnter2D(Collision2D collision)
     {//este metodo se ejecuta cuando este objeto detecta una colision
         GameObject otroObjeto = collision.gameObject;
@@ -16,6 +20,11 @@ public class Trampa : MonoBehaviour
             Personaje elPerso = otroObjeto.GetComponent<Personaje>();
             // con esto le mando daño al personaje por 20 puntos y le digo que fue este objeto el que lo daño
             elPerso.hacerDanio(20, this.gameObject);
+
+            GameObject efectoSpalsh
+                = Instantiate(splashBloodPrefab);
+            efectoSpalsh.transform.position
+                = elPerso.transform.position;
         }
         
     }

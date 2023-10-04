@@ -124,3 +124,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8bdd07f35825814eb4d55976cabdc97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  splashBloodPrefab: {fileID: 0}
