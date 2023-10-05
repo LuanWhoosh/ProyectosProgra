@@ -1888,6 +1888,136 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0e629933072a294d869b6e446ba2859, type: 3}
+--- !u!1001 &481168520
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 69.819
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920355, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: splashAguaPrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+    - target: {fileID: 2862402650407920355, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: splashBloodPrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+    - target: {fileID: 2862402650407920383, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_Name
+      value: trampaHueso (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+--- !u!1001 &520506622
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -14.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920355, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: splashAguaPrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+    - target: {fileID: 2862402650407920355, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: splashBloodPrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+    - target: {fileID: 2862402650407920383, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_Name
+      value: trampaHueso (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
 --- !u!224 &581110102 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 364216188758152969, guid: 8bf08d83ea051494fbb971ff7de66091, type: 3}
@@ -2099,6 +2229,71 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c06f74c6d14da24192e8b0bfb9e43a3, type: 3}
+--- !u!1001 &686360304
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920355, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: splashAguaPrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+    - target: {fileID: 2862402650407920355, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: splashBloodPrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+    - target: {fileID: 2862402650407920383, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_Name
+      value: trampaHueso (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
 --- !u!1001 &696889600
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2228,6 +2423,71 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 763771b8db7999e4ca9a7dafb65d4570, type: 3}
+--- !u!1001 &787484441
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 90.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920355, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: splashAguaPrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+    - target: {fileID: 2862402650407920355, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: splashBloodPrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+    - target: {fileID: 2862402650407920383, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_Name
+      value: trampaHueso (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
 --- !u!1 &792817540
 GameObject:
   m_ObjectHideFlags: 0
@@ -2422,6 +2682,71 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &963346073
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 39.056
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.519
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920355, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: splashAguaPrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+    - target: {fileID: 2862402650407920355, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: splashBloodPrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+    - target: {fileID: 2862402650407920383, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_Name
+      value: trampaHueso (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
 --- !u!114 &964666728 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 364216188574557226, guid: 8bf08d83ea051494fbb971ff7de66091, type: 3}
@@ -3421,6 +3746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splashAguaPrefab: {fileID: 8205706795460263314, guid: 326e86d5729c54e479798cacab220bb2, type: 3}
+  heartBrokenPrefab: {fileID: 6855314210357232287, guid: 7c2a9b83b809a0848915fabd9596b68b, type: 3}
 --- !u!19719996 &1134580944
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -3539,6 +3865,71 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5791778394140469634, guid: 4c06f74c6d14da24192e8b0bfb9e43a3, type: 3}
   m_PrefabInstance: {fileID: 1289847118}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1234862839
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 87.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -13.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920355, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: splashAguaPrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+    - target: {fileID: 2862402650407920355, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: splashBloodPrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+    - target: {fileID: 2862402650407920383, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_Name
+      value: trampaHueso (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
 --- !u!1001 &1289847118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3713,6 +4104,71 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b936b8bcc7c8f448802ce0cc47cff8c, type: 3}
+--- !u!1001 &1595065778
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 64.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.494
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920355, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: splashAguaPrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+    - target: {fileID: 2862402650407920355, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: splashBloodPrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+    - target: {fileID: 2862402650407920383, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_Name
+      value: trampaHueso (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
 --- !u!4 &1606347477 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2829114453627034560, guid: 50cf111768ec1bb4999d0db1d915f3f8, type: 3}
@@ -8030,6 +8486,136 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &1688161614
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 73.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920355, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: splashAguaPrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+    - target: {fileID: 2862402650407920355, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: splashBloodPrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+    - target: {fileID: 2862402650407920383, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_Name
+      value: trampaHueso (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+--- !u!1001 &1738581363
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 50.757
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.473
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920353, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862402650407920355, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: splashAguaPrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+    - target: {fileID: 2862402650407920355, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: splashBloodPrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+    - target: {fileID: 2862402650407920383, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
+      propertyPath: m_Name
+      value: trampaHueso (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
 --- !u!1001 &1777113074
 PrefabInstance:
   m_ObjectHideFlags: 0

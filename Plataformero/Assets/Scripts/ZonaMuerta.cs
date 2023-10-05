@@ -6,6 +6,7 @@ public class ZonaMuerta : MonoBehaviour
 {
 
     public GameObject splashAguaPrefab;
+    public GameObject heartBrokenPrefab;
 
     
     private void OnTriggerEnter2D(Collider2D collision)
@@ -25,6 +26,17 @@ public class ZonaMuerta : MonoBehaviour
                 = Instantiate(splashAguaPrefab);
             efectoSpalsh.transform.position
                 = elPerso.transform.position;
+
+            //GameObject efectoHeartBroken
+            //  = Instantiate(heartBrokenPrefab);
+            //efectoHeartBroken.transform.position
+            //  = elPerso.transform.position;
+
+            GameObject efectoHeartBroken = Instantiate(heartBrokenPrefab);
+            Vector3 nuevaPosicion = elPerso.transform.position;
+            nuevaPosicion.y += 3.0f; 
+            efectoHeartBroken.transform.position = nuevaPosicion;
+
         }
     }
 
