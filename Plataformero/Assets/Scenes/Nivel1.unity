@@ -9102,6 +9102,14 @@ PrefabInstance:
       propertyPath: hp
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 2829114453627034575, guid: 50cf111768ec1bb4999d0db1d915f3f8, type: 3}
+      propertyPath: vidas
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2829114453627034575, guid: 50cf111768ec1bb4999d0db1d915f3f8, type: 3}
+      propertyPath: heartBrokenPrefab
+      value: 
+      objectReference: {fileID: 6855314210357232287, guid: 7c2a9b83b809a0848915fabd9596b68b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50cf111768ec1bb4999d0db1d915f3f8, type: 3}
 --- !u!1001 &2937291957636012112

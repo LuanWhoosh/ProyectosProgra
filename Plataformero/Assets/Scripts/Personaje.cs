@@ -11,6 +11,8 @@ public class Personaje : MonoBehaviour
     public int score = 0;
     public int scoreMax = 350;
 
+    public GameObject heartBrokenPrefab;
+
     void Start()
     {
         
@@ -33,5 +35,15 @@ public class Personaje : MonoBehaviour
         vidas = vidas- reducirVida;
         hp = 0;
         print(name + "se reduce " + reducirVida + "vida por" + deadZone);
+
+        if (hp <= 0)
+        {
+            GameObject efectoHeartBroken = Instantiate(heartBrokenPrefab);
+            efectoHeartBroken.transform.position = this.transform.position;
+        }
     }
+
+    
+    
+
 }
