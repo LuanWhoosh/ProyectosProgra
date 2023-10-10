@@ -13,9 +13,13 @@ public class Personaje : MonoBehaviour
 
     public GameObject heartBrokenPrefab;
 
+    private Animator miAnimador;
+
+
+
     void Start()
     {
-        
+        miAnimador = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -27,7 +31,16 @@ public class Personaje : MonoBehaviour
     public void hacerDanio(int puntosDanio, GameObject enemigo)
     {
         hp = hp - puntosDanio;
-        print(name + "recibre daño de " + puntosDanio + "por" + enemigo);
+        print(name + "recibe daño de " + puntosDanio + "por" + enemigo);
+        
+        if (hp>0)
+        {
+            miAnimador.SetTrigger("DAÑO");
+        }
+        if (hp<=0)
+        {
+            miAnimador.SetTrigger("MUERTE");
+        }
     }
 
     public void muerteInstan(int reducirVida, GameObject deadZone)
@@ -35,11 +48,13 @@ public class Personaje : MonoBehaviour
         vidas = vidas- reducirVida;
         hp = 0;
         print(name + "se reduce " + reducirVida + "vida por" + deadZone);
+        miAnimador.SetTrigger("MUERTE");
     }
 
 
     public void quitarVidas()
     {
+
         if (hp <= 0)
         {
             GameObject efectoHeartBroken = Instantiate(heartBrokenPrefab);

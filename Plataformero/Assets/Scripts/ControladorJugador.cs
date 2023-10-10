@@ -9,13 +9,16 @@ public class ControladorJugador : MonoBehaviour
     public bool enPiso = false;
     public int contadorSaltos;
 
+
     private Rigidbody2D miCuerpo;
     private Animator miAnimador;
+    private EfectosSonoros misSonidos;
     // Start is called before the first frame update
     void Start()
     {
         miCuerpo = GetComponent<Rigidbody2D>();
         miAnimador = GetComponent<Animator>();
+        misSonidos = GetComponent<EfectosSonoros>();
     }
 
     // Update is called once per frame
@@ -58,6 +61,8 @@ public class ControladorJugador : MonoBehaviour
          if (Input.GetButtonDown("Jump") && contadorSaltos > 0)
             {
                 miCuerpo.AddForce(new Vector3(0, fuerzaSalto, 0), ForceMode2D.Impulse);
+                misSonidos.reproducir("salto");
+
             }
        
        
