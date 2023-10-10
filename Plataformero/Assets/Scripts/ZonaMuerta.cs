@@ -22,6 +22,8 @@ public class ZonaMuerta : MonoBehaviour
             // con esto le mando daño al personaje por 20 puntos y le digo que fue este objeto el que lo daño
             elPerso.muerteInstan(1, this.gameObject);
 
+            elPerso.quitarVidas();
+
             GameObject efectoSpalsh
                 = Instantiate(splashAguaPrefab);
             efectoSpalsh.transform.position

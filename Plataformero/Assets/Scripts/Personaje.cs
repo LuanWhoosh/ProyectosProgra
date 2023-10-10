@@ -35,15 +35,17 @@ public class Personaje : MonoBehaviour
         vidas = vidas- reducirVida;
         hp = 0;
         print(name + "se reduce " + reducirVida + "vida por" + deadZone);
+    }
 
+
+    public void quitarVidas()
+    {
         if (hp <= 0)
         {
             GameObject efectoHeartBroken = Instantiate(heartBrokenPrefab);
             efectoHeartBroken.transform.position = this.transform.position;
         }
     }
-
-    
-    
+      
 
 }
