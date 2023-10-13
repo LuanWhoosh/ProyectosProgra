@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Trampa : MonoBehaviour
 
-    
+   
 {
     public GameObject splashBloodPrefab;
 
@@ -19,10 +19,14 @@ public class Trampa : MonoBehaviour
             elPerso.hacerDanio(20, this.gameObject);
             elPerso.quitarVidas();
 
+            
+
             GameObject efectoSpalsh
                 = Instantiate(splashBloodPrefab);
             efectoSpalsh.transform.position
                 = elPerso.transform.position;
+
+           
         }
         
     }
