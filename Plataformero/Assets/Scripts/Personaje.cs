@@ -44,7 +44,7 @@ public class Personaje : MonoBehaviour
         {
             miAnimador.SetTrigger("MUERTE");
             misSonidos.reproducir("muerte");
-
+            vidas = vidas - 1;
         }
     }
 
