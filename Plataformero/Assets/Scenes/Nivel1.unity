@@ -4030,6 +4030,7 @@ GameObject:
   - component: {fileID: 1372556392}
   - component: {fileID: 1372556391}
   - component: {fileID: 1372556390}
+  - component: {fileID: 1372556395}
   m_Layer: 0
   m_Name: IPigMalvado
   m_TagString: Untagged
@@ -4281,6 +4282,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!50 &1372556395
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372556387}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!224 &1437938694 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 364216189320672569, guid: 8bf08d83ea051494fbb971ff7de66091, type: 3}
