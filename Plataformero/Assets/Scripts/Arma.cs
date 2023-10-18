@@ -14,7 +14,7 @@ public class Arma : MonoBehaviour
     {
         GameObject nube = collision.gameObject;
 
-        if (nube.tag == "Player")
+        if (nube.tag == "Enemigo")
         {
 
             print(name + "detecte colision con"

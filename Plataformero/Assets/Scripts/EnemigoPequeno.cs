@@ -9,6 +9,8 @@ public class EnemigoPequeno : MonoBehaviour
     public bool activo;
     public float velocidadCaminar = 5;
     private EfectosSonoros misSonidos;
+    public GameObject splashBloodPrefab;
+
 
     void Start()
     {
@@ -64,6 +66,10 @@ public class EnemigoPequeno : MonoBehaviour
         {
             Personaje elPerso = otroObjeto.GetComponent<Personaje>(); // con esto le mando daño al personaje por 20 puntos y le digo que fue este objeto el que lo daño
             elPerso.hacerDanio(20, this.gameObject);
+            GameObject efectoSpalsh
+               = Instantiate(splashBloodPrefab);
+            efectoSpalsh.transform.position
+                = elPerso.transform.position;
             misSonidos.reproducir("daño");
             miAnimador.SetTrigger("DAÑO");
         }

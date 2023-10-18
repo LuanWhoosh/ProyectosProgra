@@ -318,57 +318,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1585983263 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1753513293553945749, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
-  m_PrefabInstance: {fileID: 1927657156}
-  m_PrefabAsset: {fileID: 0}
---- !u!70 &1585983272
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1585983263}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.0000000069234556, y: 0.052630637}
-  m_Size: {x: 1.6867685, y: 0.43970472}
-  m_Direction: 1
---- !u!70 &1585983273
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1585983263}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0025545955, y: -0.017360605}
-  m_Size: {x: 0.29898784, y: 0.26528108}
-  m_Direction: 1
---- !u!114 &1585983274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1585983263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f0e7131b6104a34d9e7030fc3f893c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activo: 0
-  velocidadCaminar: 2
 --- !u!1001 &1927657156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -376,33 +325,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1753513293553945744, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
-      propertyPath: m_Size.x
-      value: 0.23613349
-      objectReference: {fileID: 0}
-    - target: {fileID: 1753513293553945744, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
-      propertyPath: m_Size.y
-      value: 0.25066367
-      objectReference: {fileID: 0}
-    - target: {fileID: 1753513293553945744, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.0019548833
-      objectReference: {fileID: 0}
-    - target: {fileID: 1753513293553945744, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.017278463
-      objectReference: {fileID: 0}
-    - target: {fileID: 1753513293553945746, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
-      propertyPath: m_FlipX
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1753513293553945747, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1753513293553945747, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3.9089897
       objectReference: {fileID: 0}
     - target: {fileID: 1753513293553945747, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -448,32 +373,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: PigVillano
       objectReference: {fileID: 0}
-    - target: {fileID: 1753513293553945757, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1753513293553945759, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
-      propertyPath: hp
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 1753513293553945759, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
-      propertyPath: hpMax
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 1753513293553945759, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
-      propertyPath: vidas
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1753513293553945759, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
-      propertyPath: scoreMax
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 1753513293553945759, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
-      propertyPath: vidasMax
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1753513293553945744, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
 --- !u!1001 &2094571773
 PrefabInstance:
