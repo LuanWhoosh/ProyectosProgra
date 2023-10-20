@@ -8973,6 +8973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28752130752a5484d8989ab8c29aa128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puntosAtaque: 30
 --- !u!61 &2067712487
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9131,6 +9132,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7738877443006000607, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
+      propertyPath: m_Size.x
+      value: 1.013938
+      objectReference: {fileID: 0}
+    - target: {fileID: -7738877443006000607, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
+      propertyPath: m_Size.y
+      value: 0.3241319
+      objectReference: {fileID: 0}
+    - target: {fileID: -7738877443006000607, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.07108752
+      objectReference: {fileID: 0}
+    - target: {fileID: -7738877443006000607, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.0027280448
+      objectReference: {fileID: 0}
     - target: {fileID: 1753513293553945747, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
       propertyPath: m_RootOrder
       value: 15

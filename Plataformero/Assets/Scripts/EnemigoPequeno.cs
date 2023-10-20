@@ -6,8 +6,11 @@ public class EnemigoPequeno : MonoBehaviour
 {
     private Rigidbody2D miCuerpo;
     private Animator miAnimador;
+    private GameObject heroeJugador;
     public bool activo;
     public float velocidadCaminar = 5;
+    public int puntosDanio = 10;
+    public float rangoAgro = 3;
     private EfectosSonoros misSonidos;
     public GameObject splashBloodPrefab;
 
@@ -17,6 +20,7 @@ public class EnemigoPequeno : MonoBehaviour
         miCuerpo = GetComponent<Rigidbody2D>();
         miAnimador = GetComponent<Animator>();
         misSonidos = GetComponent<EfectosSonoros>();
+        heroeJugador = GameObject.FindGameObjectWithTag("Player");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -31,19 +35,19 @@ public class EnemigoPequeno : MonoBehaviour
             if (heroe > enemigo)
             {
                 transform.rotation = Quaternion.Euler(0, 180, 0);
-                
+
             }
             else
             {
                 transform.rotation = Quaternion.Euler(0, 0, 0);
-                
+
             }
 
             print(name + " entra a "
           + collision.gameObject);
-          
+
         }
-    } 
+    }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -55,7 +59,7 @@ public class EnemigoPequeno : MonoBehaviour
 
             print(name + " sale de "
           + collision.gameObject);
-          
+
         }
     }
 
@@ -77,15 +81,54 @@ public class EnemigoPequeno : MonoBehaviour
 
     void Update()
     {
+        Vector3 miPos = this.transform.position;
+        Vector3 posHeroe = heroeJugador.transform.position;
+        float distanciaHeroe = (miPos - posHeroe).magnitude;
         float velVert = miCuerpo.velocity.y;
 
-        if (activo ==true)
+        if (distanciaHeroe < rangoAgro)
         {
-            miCuerpo.velocity = this.transform.right * velocidadCaminar;
+            activo = true;
+            print(heroeJugador + "el jugador se acerca a " + name);
+
+            float heroe = heroeJugador.transform.position.x;
+            float villano = this.transform.position.x;
+
+            if (heroe > villano)
+            {
+                transform.rotation = Quaternion.Euler(0, 180, 0);
+            }
+
+            else
+            {
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+            }
+
+        }
+
+        else
+        {
+            activo = false;
+        }
+
+
+
+
+        if (activo)
+        {
+            miCuerpo.velocity = this.transform.right * -velocidadCaminar;
             miAnimador.SetBool("CAMINANDO", true);
         }
 
+        else
+        {
+            miCuerpo.velocity = Vector3.zero;
+            //miCuerpo.velocity = this.transform.right * velocidadVill;
+            miAnimador.SetBool("CAMINANDO", false);
+        }
     }
-
- 
 }
+
+
+    
+
