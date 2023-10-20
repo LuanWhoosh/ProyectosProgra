@@ -4,32 +4,23 @@ using UnityEngine;
 
 public class Arma : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    void update()
     {
-        
+
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        GameObject nube = collision.gameObject;
+        GameObject golpeArma = collision.gameObject;
+        
 
-        if (nube.tag == "Enemigo")
+        if (golpeArma.tag == "Enemigo")
         {
-
-            print(name + "detecte colision con"
+            print(name + " golpeo a "
             + collision.gameObject);
-            //con esta instrucciones obtengo el componente personaje del player
-            Personaje elPerso = nube.GetComponent<Personaje>();
-            // con esto le mando daño al personaje por 20 puntos y le digo que fue este objeto el que lo daño
-            elPerso.muerteInstan(1, this.gameObject);
-            elPerso.quitarVidas();
-            
+            Personaje enemigo = golpeArma.GetComponent<Personaje>();
+            enemigo.hacerDanio(15, this.gameObject);
 
         }
-    }
-    void Update()
-    {
-        
     }
 }

@@ -67,6 +67,8 @@ public class Personaje : MonoBehaviour
             efectoHeartBroken.transform.position = this.transform.position;
         }
     }
+
+   
       
 
 }

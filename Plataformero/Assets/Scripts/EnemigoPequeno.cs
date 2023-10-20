@@ -65,7 +65,7 @@ public class EnemigoPequeno : MonoBehaviour
         if (otroObjeto.tag == "Player")
         {
             Personaje elPerso = otroObjeto.GetComponent<Personaje>(); // con esto le mando daño al personaje por 20 puntos y le digo que fue este objeto el que lo daño
-            elPerso.hacerDanio(20, this.gameObject);
+            elPerso.hacerDanio(10, this.gameObject);
             GameObject efectoSpalsh
                = Instantiate(splashBloodPrefab);
             efectoSpalsh.transform.position
@@ -86,4 +86,6 @@ public class EnemigoPequeno : MonoBehaviour
         }
 
     }
+
+ 
 }

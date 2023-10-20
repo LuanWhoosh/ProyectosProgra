@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 1585983274}
   m_Layer: 0
   m_Name: IPigMalvado
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -310,3 +310,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activo: 0
   velocidadCaminar: 2
+  splashBloodPrefab: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}

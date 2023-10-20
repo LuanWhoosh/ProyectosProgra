@@ -35,10 +35,7 @@ public class ZonaMuerta : MonoBehaviour
             efectoSpalsh.transform.position
                 = elPerso.transform.position;
 
-            //GameObject efectoHeartBroken
-            // = Instantiate(heartBrokenPrefab);
-            // efectoHeartBroken.transform.position
-            // = elPerso.transform.position;
+            
 
         }
     }

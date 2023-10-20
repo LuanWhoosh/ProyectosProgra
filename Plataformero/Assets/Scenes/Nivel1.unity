@@ -8956,6 +8956,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2067712479 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5218770537329851889, guid: 50cf111768ec1bb4999d0db1d915f3f8, type: 3}
+  m_PrefabInstance: {fileID: 2829114454524965141}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2067712483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067712479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28752130752a5484d8989ab8c29aa128, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &2067712487
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067712479}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.12398575, y: 0.36788216}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.28, y: 2.56}
+    newSize: {x: 1.28, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0320284, y: 0.85064393}
+  m_EdgeRadius: 0
 --- !u!1 &2097824780
 GameObject:
   m_ObjectHideFlags: 0
@@ -9088,10 +9131,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1585983274, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
-      propertyPath: splashBloodPrefab
-      value: 
-      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
     - target: {fileID: 1753513293553945747, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -9140,9 +9179,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: IPigMalvado
       objectReference: {fileID: 0}
-    - target: {fileID: 1753513293553945749, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
-      propertyPath: m_TagString
-      value: Enemigo
+    - target: {fileID: 1753513293553945759, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
+      propertyPath: hp
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1753513293553945759, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
+      propertyPath: hpMax
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d79ae38fa058e5c4b8badc11f06e0c4f, type: 3}
@@ -9153,6 +9196,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1318079224971908731, guid: 50cf111768ec1bb4999d0db1d915f3f8, type: 3}
+      propertyPath: m_Size.y
+      value: 0.86507535
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318079224971908731, guid: 50cf111768ec1bb4999d0db1d915f3f8, type: 3}
+      propertyPath: m_Center.x
+      value: 0.10038618
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318079224971908731, guid: 50cf111768ec1bb4999d0db1d915f3f8, type: 3}
+      propertyPath: m_Center.y
+      value: 0.29473957
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318079224971908731, guid: 50cf111768ec1bb4999d0db1d915f3f8, type: 3}
+      propertyPath: m_Center.z
+      value: -0.0000002156046
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318079224971908731, guid: 50cf111768ec1bb4999d0db1d915f3f8, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2829114453627034560, guid: 50cf111768ec1bb4999d0db1d915f3f8, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -9201,7 +9264,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: cavernicola (jugador)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1318079224971908731, guid: 50cf111768ec1bb4999d0db1d915f3f8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 50cf111768ec1bb4999d0db1d915f3f8, type: 3}
 --- !u!1001 &2937291957636012112
 PrefabInstance:
