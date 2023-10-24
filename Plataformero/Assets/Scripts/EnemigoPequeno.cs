@@ -13,6 +13,7 @@ public class EnemigoPequeno : MonoBehaviour
     public float rangoAgro = 3;
     private EfectosSonoros misSonidos;
     public GameObject splashBloodPrefab;
+    //private Personaje miPersonaje;
 
 
     void Start()
@@ -21,16 +22,20 @@ public class EnemigoPequeno : MonoBehaviour
         miAnimador = GetComponent<Animator>();
         misSonidos = GetComponent<EfectosSonoros>();
         heroeJugador = GameObject.FindGameObjectWithTag("Player");
+        //miPersonaje = GetComponent<Personaje>();
     }
 
     void Update()
     {
+        
         Vector3 miPos = this.transform.position;
         Vector3 posHeroe = heroeJugador.transform.position;
         float distanciaHeroe = (miPos - posHeroe).magnitude;
         float velVert = miCuerpo.velocity.y;
 
-        if (distanciaHeroe < rangoAgro)
+
+
+        if (distanciaHeroe < rangoAgro && heroeJugador.GetComponent<Personaje>().estaVivo())
         {
             activo = true;
             print(heroeJugador + "el jugador se acerca a " + name);
@@ -58,7 +63,7 @@ public class EnemigoPequeno : MonoBehaviour
 
 
 
-        if (activo)
+        if (activo && heroeJugador.GetComponent<Personaje>().estaVivo())
         {
             miCuerpo.velocity = this.transform.right * -velocidadCaminar;
             miAnimador.SetBool("CAMINANDO", true);
@@ -75,10 +80,11 @@ public class EnemigoPequeno : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         GameObject otroObjeto = collision.gameObject;
-        if (otroObjeto.tag == "Player")
+        if (otroObjeto.tag == "Player" && heroeJugador.GetComponent<Personaje>().estaVivo())
         {
             Personaje elPerso = otroObjeto.GetComponent<Personaje>(); // con esto le mando daño al personaje por 20 puntos y le digo que fue este objeto el que lo daño
             elPerso.hacerDanio(10, this.gameObject);
+            elPerso.quitarVidas();
             GameObject efectoSpalsh
                = Instantiate(splashBloodPrefab);
             efectoSpalsh.transform.position

@@ -4102,11 +4102,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa81f7d6bc5305243a650636f303ca03, type: 3}
---- !u!4 &1606347477 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2829114453627034560, guid: 50cf111768ec1bb4999d0db1d915f3f8, type: 3}
-  m_PrefabInstance: {fileID: 2829114454524965141}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1606347482 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2829114453627034575, guid: 50cf111768ec1bb4999d0db1d915f3f8, type: 3}
@@ -9253,6 +9248,6 @@ PrefabInstance:
     - target: {fileID: 2937291958871745645, guid: 45e0440772a0f9c4491fd868e6c11052, type: 3}
       propertyPath: cavernicola
       value: 
-      objectReference: {fileID: 1606347477}
+      objectReference: {fileID: 1606347482}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45e0440772a0f9c4491fd868e6c11052, type: 3}

@@ -10,10 +10,10 @@ public class EnemigoGrande : MonoBehaviour
     public bool activo;
     public float velocidadCaminar = 5;
     public int puntosDanio = 10;
-    public float rangoAgro = 3;
+    public float rangoAgro = 10;
     private EfectosSonoros misSonidos;
     public GameObject splashBloodPrefab;
-
+    public float rangoAtaque = 3;
 
     void Start()
     {
@@ -30,7 +30,7 @@ public class EnemigoGrande : MonoBehaviour
         float distanciaHeroe = (miPos - posHeroe).magnitude;
         float velVert = miCuerpo.velocity.y;
 
-        if (distanciaHeroe < rangoAgro)
+        if (distanciaHeroe < rangoAgro && heroeJugador.GetComponent<Personaje>().estaVivo())
         {
             activo = true;
             print(heroeJugador + "el jugador se acerca a " + name);
@@ -57,14 +57,11 @@ public class EnemigoGrande : MonoBehaviour
             activo = false;
         }
 
-
-
-
         if (activo)
         {
             miCuerpo.velocity = this.transform.right * -velocidadCaminar;
             //miAnimador.SetBool("CAMINANDO", true);
-            miAnimador.SetTrigger("GOLPEAR");
+            miAnimador.SetBool("CAMINANDO",true);
 
         }
 
@@ -75,12 +72,18 @@ public class EnemigoGrande : MonoBehaviour
             miAnimador.SetBool("CAMINANDO", false);
 
         }
+
+        if(distanciaHeroe < rangoAtaque && heroeJugador.GetComponent<Personaje>().estaVivo())
+
+        {
+            miAnimador.SetTrigger("GOLPEAR");
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         GameObject otroObjeto = collision.gameObject;
-        if (otroObjeto.tag == "Player")
+        if (otroObjeto.tag == "Player" && heroeJugador.GetComponent<Personaje>().estaVivo())
         {
             Personaje elPerso = otroObjeto.GetComponent<Personaje>(); // con esto le mando daño al personaje por 20 puntos y le digo que fue este objeto el que lo daño
             elPerso.hacerDanio(10, this.gameObject);
