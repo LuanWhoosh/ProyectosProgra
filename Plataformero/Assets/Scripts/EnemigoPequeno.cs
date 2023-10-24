@@ -23,62 +23,6 @@ public class EnemigoPequeno : MonoBehaviour
         heroeJugador = GameObject.FindGameObjectWithTag("Player");
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        GameObject zonaPeligro = collision.gameObject;
-        if (zonaPeligro.tag == "Player")
-        {
-            float enemigo = zonaPeligro.transform.position.x;
-            float heroe = this.transform.position.x;
-            activo = true;
-
-            if (heroe > enemigo)
-            {
-                transform.rotation = Quaternion.Euler(0, 180, 0);
-
-            }
-            else
-            {
-                transform.rotation = Quaternion.Euler(0, 0, 0);
-
-            }
-
-            print(name + " entra a "
-          + collision.gameObject);
-
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        GameObject zonaPeligro = collision.gameObject;
-        if (zonaPeligro.tag == "Player")
-        {
-            activo = false;
-            miAnimador.SetBool("CAMINANDO", false);
-
-            print(name + " sale de "
-          + collision.gameObject);
-
-        }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        GameObject otroObjeto = collision.gameObject;
-        if (otroObjeto.tag == "Player")
-        {
-            Personaje elPerso = otroObjeto.GetComponent<Personaje>(); // con esto le mando daño al personaje por 20 puntos y le digo que fue este objeto el que lo daño
-            elPerso.hacerDanio(10, this.gameObject);
-            GameObject efectoSpalsh
-               = Instantiate(splashBloodPrefab);
-            efectoSpalsh.transform.position
-                = elPerso.transform.position;
-            misSonidos.reproducir("daño");
-            miAnimador.SetTrigger("DAÑO");
-        }
-    }
-
     void Update()
     {
         Vector3 miPos = this.transform.position;
@@ -125,6 +69,22 @@ public class EnemigoPequeno : MonoBehaviour
             miCuerpo.velocity = Vector3.zero;
             //miCuerpo.velocity = this.transform.right * velocidadVill;
             miAnimador.SetBool("CAMINANDO", false);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        GameObject otroObjeto = collision.gameObject;
+        if (otroObjeto.tag == "Player")
+        {
+            Personaje elPerso = otroObjeto.GetComponent<Personaje>(); // con esto le mando daño al personaje por 20 puntos y le digo que fue este objeto el que lo daño
+            elPerso.hacerDanio(10, this.gameObject);
+            GameObject efectoSpalsh
+               = Instantiate(splashBloodPrefab);
+            efectoSpalsh.transform.position
+                = elPerso.transform.position;
+            misSonidos.reproducir("daño");
+            miAnimador.SetTrigger("DAÑO");
         }
     }
 }
