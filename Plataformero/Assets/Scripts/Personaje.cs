@@ -7,7 +7,7 @@ public class Personaje : MonoBehaviour
 {
     public int hp = 70;
     public int hpMax = 100;
-    public int vidas = 3;
+    public static int vidas = 5;
     public int vidasMax = 5;
     public int score = 0;
     public int scoreMax = 350;
@@ -18,6 +18,7 @@ public class Personaje : MonoBehaviour
     private Animator miAnimador;
     private EfectosSonoros misSonidos;
     private Personaje miPersonaje;
+    
 
     void Start()
     {
@@ -90,13 +91,29 @@ public class Personaje : MonoBehaviour
         {
             GameObject efectoHeartBroken = Instantiate(heartBrokenPrefab);
             efectoHeartBroken.transform.position = this.transform.position;
+
+            if (miPersonaje.tag == "Player")
+            {
+                if (vidas > 0)
+                {
+                    Invoke("reiniciarEscena", 3);
+                }
+            }
+            
         }
     }
+
+    
 
    private void reiniciarEscena()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
       
+
+    public bool gameOver()
+    {
+        return(vidas<= 0);
+    }
 
 }

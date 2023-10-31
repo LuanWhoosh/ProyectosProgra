@@ -14,8 +14,10 @@ public class ControladorGui : MonoBehaviour
     public Personaje Villano;
     public Text EtiquetaHPVillano;
     public Image BarraHPVillano;
+    public Image GameOver;
+    public GameObject gameOver;
 
-  
+
 
     // Update is called once per frame
     void Update()
@@ -29,15 +31,23 @@ public class ControladorGui : MonoBehaviour
         EtiquetaScoreHeroe.text =
             Heroe.score + " / " + Heroe.scoreMax;
         EtiquetaVidaHeroe.text =
-            Heroe.vidas + " / " + Heroe.vidasMax;
+            Personaje.vidas + " / " + Heroe.vidasMax;
 
         EtiquetaHPVillano.text =
             Villano.hp + " / " + Villano.hpMax;
         float porcentajeHPVillano
             = Villano.hp / (float)Villano.hpMax;
         BarraHPVillano.fillAmount = porcentajeHPVillano;
+
+        if (Heroe.gameOver())
+        {
+            GameOver.SetActive(true);
+        }
+
     }
 
+    
    
-   
+        
+
 }
