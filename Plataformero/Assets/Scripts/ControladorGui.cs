@@ -14,8 +14,8 @@ public class ControladorGui : MonoBehaviour
     public Personaje Villano;
     public Text EtiquetaHPVillano;
     public Image BarraHPVillano;
-    public Image GameOver;
-    public GameObject gameOver;
+    //public Image GameOver;
+    public GameObject GameOver;
 
 
 

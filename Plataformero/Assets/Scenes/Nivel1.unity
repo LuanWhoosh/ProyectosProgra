@@ -3408,8 +3408,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1134580938}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.33, y: -8.9, z: 0}
-  m_LocalScale: {x: 1.0426568, y: 0.5558715, z: 1}
+  m_LocalPosition: {x: -20.8, y: -8.7, z: 0}
+  m_LocalScale: {x: 1.2231127, y: 0.5585107, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 792817542}
@@ -9153,7 +9153,7 @@ MonoBehaviour:
   Villano: {fileID: 1372556393}
   EtiquetaHPVillano: {fileID: 918227952}
   BarraHPVillano: {fileID: 964666728}
-  GameOver: {fileID: 1809461705}
+  GameOver: {fileID: 1809461704}
 --- !u!1001 &1753513292744802550
 PrefabInstance:
   m_ObjectHideFlags: 0
