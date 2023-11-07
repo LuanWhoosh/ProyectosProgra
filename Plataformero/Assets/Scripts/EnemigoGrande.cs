@@ -77,6 +77,8 @@ public class EnemigoGrande : MonoBehaviour
 
         {
             miAnimador.SetTrigger("GOLPEAR");
+            miAnimador.SetBool("CAMINANDO", false);
+
         }
     }
 
