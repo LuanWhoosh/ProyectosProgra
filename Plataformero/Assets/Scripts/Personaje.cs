@@ -12,12 +12,14 @@ public class Personaje : MonoBehaviour
     public int score = 0;
     public int scoreMax = 350;
     public bool bloqueado = false;
+    public int dinero = 0;
 
 
     public GameObject heartBrokenPrefab;
     private Animator miAnimador;
     private EfectosSonoros misSonidos;
     private Personaje miPersonaje;
+    //private Tesoro miTesoro;
     
 
     void Start()
@@ -25,6 +27,7 @@ public class Personaje : MonoBehaviour
         miAnimador = GetComponent<Animator>();
         misSonidos = GetComponent<EfectosSonoros>();
         miPersonaje = GetComponent<Personaje>();
+        //miTesoro = GetComponent<Tesoro>();
     }
 
     // Update is called once per frame
@@ -116,4 +119,8 @@ public class Personaje : MonoBehaviour
         return(vidas<= 0);
     }
 
+    //public void contadorDinero()
+    //{
+        //dinero = miTesoro.valor + dinero;
+    //}
 }

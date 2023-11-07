@@ -10,6 +10,7 @@ public class ControladorGui : MonoBehaviour
     public Image BarraHPHeroe;
     public Text EtiquetaScoreHeroe;
     public Text EtiquetaVidaHeroe;
+    public Text EtiquetaMoneda;
 
     public Personaje Villano;
     public Text EtiquetaHPVillano;
@@ -38,6 +39,8 @@ public class ControladorGui : MonoBehaviour
         float porcentajeHPVillano
             = Villano.hp / (float)Villano.hpMax;
         BarraHPVillano.fillAmount = porcentajeHPVillano;
+
+        EtiquetaMoneda.text = Heroe.dinero + "";
 
         if (Heroe.gameOver())
         {
