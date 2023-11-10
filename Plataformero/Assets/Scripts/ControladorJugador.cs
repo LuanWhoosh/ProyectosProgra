@@ -90,4 +90,6 @@ public class ControladorJugador : MonoBehaviour
                 0.1f// que tan largo
                 );
         }
+
+    
 }//fin de la clase
