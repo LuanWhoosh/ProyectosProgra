@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemigo
   - Tesoro
+  - Boton
   layers:
   - Default
   - TransparentFX
