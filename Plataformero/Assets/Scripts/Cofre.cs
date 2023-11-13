@@ -40,8 +40,7 @@ public class Cofre : MonoBehaviour
 
         if (otro.tag == "Player")
         {
-
-            miAnimador.SetTrigger("TOMAR");
+            miAnimador.SetTrigger("NORMAL");
             boton.SetActive(false);
             pressBoton();
 
@@ -50,10 +49,10 @@ public class Cofre : MonoBehaviour
 
     public void pressBoton()
     {
-        if (Input.GetButtonDown("Fire2"))
+        if (Input.GetKeyDown(KeyCode.Keypad2))
         {
-            print("Se presiono AAA");
-            
+            Debug.Log("Keypad2 key was pressed.");
+
         }
     }
 
