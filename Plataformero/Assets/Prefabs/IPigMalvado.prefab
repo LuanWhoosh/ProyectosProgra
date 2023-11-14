@@ -126,12 +126,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   hpMax: 100
-  vidas: 1
   vidasMax: 1
   score: 0
   scoreMax: 200
   bloqueado: 0
+  dinero: 0
   heartBrokenPrefab: {fileID: 6855314210357232287, guid: 7c2a9b83b809a0848915fabd9596b68b, type: 3}
+  enemigo: {fileID: 1753513293553945749}
 --- !u!82 &1753513293553945758
 AudioSource:
   m_ObjectHideFlags: 0
@@ -279,9 +280,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.002554565, y: -0.03308623}
-  m_Size: {x: 1.3727242, y: 1.3494023}
-  m_Direction: 1
+  m_Offset: {x: -0.002554534, y: 0.003942414}
+  m_Size: {x: 1.3727242, y: 1.1676248}
+  m_Direction: 0
 --- !u!114 &1585983274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -294,8 +295,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f0e7131b6104a34d9e7030fc3f893c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  miPersonaje: {fileID: 1753513293553945759}
+  recompensa: {fileID: 5131882254355810445, guid: 315879b00010f944faef3f0f4ad2a5d4, type: 3}
   activo: 0
   velocidadCaminar: 2
   puntosDanio: 20
   rangoAgro: 3
   splashBloodPrefab: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+  seInstancia: 0

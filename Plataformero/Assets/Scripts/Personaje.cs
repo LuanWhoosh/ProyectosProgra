@@ -14,12 +14,11 @@ public class Personaje : MonoBehaviour
     public bool bloqueado = false;
     public int dinero = 0;
 
-
     public GameObject heartBrokenPrefab;
     private Animator miAnimador;
     private EfectosSonoros misSonidos;
     private Personaje miPersonaje;
-    //private Tesoro miTesoro;
+    public GameObject enemigo;
     
 
     void Start()
@@ -67,7 +66,11 @@ public class Personaje : MonoBehaviour
             {
                 miAnimador.SetTrigger("MUERTE");
                 misSonidos.reproducir("muerte");
-                vidas = vidas - 1;
+                if (miPersonaje.tag == "Player")
+                {
+                    vidas = vidas - 1;
+                }
+                
             }
         }
         
@@ -102,6 +105,10 @@ public class Personaje : MonoBehaviour
                     Invoke("reiniciarEscena", 3);
                 }
             }
+            if (miPersonaje.tag == "Enemigo")
+            {
+                Destroy(enemigo, 0.6f);
+            }
             
         }
     }
@@ -119,8 +126,5 @@ public class Personaje : MonoBehaviour
         return(vidas<= 0);
     }
 
-    //public void contadorDinero()
-    //{
-        //dinero = miTesoro.valor + dinero;
-    //}
+   
 }

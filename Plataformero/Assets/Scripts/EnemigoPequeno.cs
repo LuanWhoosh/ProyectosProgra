@@ -7,12 +7,16 @@ public class EnemigoPequeno : MonoBehaviour
     private Rigidbody2D miCuerpo;
     private Animator miAnimador;
     private GameObject heroeJugador;
+    public Personaje miPersonaje;
+    public GameObject recompensa;
     public bool activo;
     public float velocidadCaminar = 5;
     public int puntosDanio = 10;
     public float rangoAgro = 3;
     private EfectosSonoros misSonidos;
     public GameObject splashBloodPrefab;
+
+    public bool seInstancia = false;
     //private Personaje miPersonaje;
 
 
@@ -22,7 +26,7 @@ public class EnemigoPequeno : MonoBehaviour
         miAnimador = GetComponent<Animator>();
         misSonidos = GetComponent<EfectosSonoros>();
         heroeJugador = GameObject.FindGameObjectWithTag("Player");
-        //miPersonaje = GetComponent<Personaje>();
+        miPersonaje = GetComponent<Personaje>();
     }
 
     void Update()
@@ -75,6 +79,11 @@ public class EnemigoPequeno : MonoBehaviour
             //miCuerpo.velocity = this.transform.right * velocidadVill;
             miAnimador.SetBool("CAMINANDO", false);
         }
+
+        if (!miPersonaje.estaVivo() && seInstancia == false)
+        {
+            this.instanciarItem();
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -92,6 +101,12 @@ public class EnemigoPequeno : MonoBehaviour
             misSonidos.reproducir("daño");
             miAnimador.SetTrigger("DAÑO");
         }
+    }
+
+    private void instanciarItem()
+    {
+        Instantiate(recompensa, transform.position, Quaternion.identity);
+        seInstancia = true;
     }
 }
 

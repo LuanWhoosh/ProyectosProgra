@@ -126,11 +126,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 70
   hpMax: 100
-  vidasMax: 5
+  vidasMax: 10
   score: 0
   scoreMax: 350
   bloqueado: 0
+  dinero: 0
   heartBrokenPrefab: {fileID: 6855314210357232287, guid: 7c2a9b83b809a0848915fabd9596b68b, type: 3}
+  enemigo: {fileID: 578396376709237504}
 --- !u!82 &578396376709237560
 AudioSource:
   m_ObjectHideFlags: 0
@@ -293,8 +295,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f0e7131b6104a34d9e7030fc3f893c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  miPersonaje: {fileID: 578396376709237567}
+  recompensa: {fileID: 5131882254355810445, guid: 315879b00010f944faef3f0f4ad2a5d4, type: 3}
   activo: 0
   velocidadCaminar: 2
   puntosDanio: 10
   rangoAgro: 3
   splashBloodPrefab: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
+  seInstancia: 0

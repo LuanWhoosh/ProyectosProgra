@@ -21,12 +21,12 @@ public class Veneno : MonoBehaviour
         {
             elPerso = otroObjeto.GetComponent<Personaje>();
 
-            InvokeRepeating("HacerDanioRepetido", 0f, repetirDanio);
-            Destroy(gameObject, 10);
+            InvokeRepeating("DanioRepeat", 0f, repetirDanio);
+            Destroy(gameObject, 8f);
         }
     }
 
-    void HacerDanioRepetido()
+    void DanioRepeat()
     {
         if (elPerso != null)
         {

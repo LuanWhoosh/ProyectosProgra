@@ -6,29 +6,40 @@ public class Cofre : MonoBehaviour
 {
     private Animator miAnimador;
     public GameObject boton;
+    public GameObject cofreEpico;
+    public bool puedesPres = false;
+    
+
     void Start()
     {
         miAnimador = GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown("m") && puedesPres == true)
+        {
+            miAnimador.SetTrigger("TOMAR");
+            
+            boton.SetActive(false);
+            Destroy(gameObject, 1f);
+            this.instanciarItem();
+
+        }
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         GameObject otro = collision.gameObject;
-        print("El " + name + " colisiona con " + collision);
 
         if (otro.tag == "Player")
         {
-            
-            miAnimador.SetTrigger("TOMAR");
+            print("El " + name + " colisiona con " + collision);
             boton.SetActive(true);
-            pressBoton();
-
+            puedesPres = true;
         }
 
     }
@@ -36,24 +47,19 @@ public class Cofre : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         GameObject otro = collision.gameObject;
-        print("El" + name + " colisiona con " + collision);
 
         if (otro.tag == "Player")
         {
+            print("El" + name + " colisiona con " + collision);
             miAnimador.SetTrigger("NORMAL");
             boton.SetActive(false);
-            pressBoton();
-
+            puedesPres = false;
         }
     }
 
-    public void pressBoton()
+    private void instanciarItem()
     {
-        if (Input.GetKeyDown(KeyCode.Keypad2))
-        {
-            Debug.Log("Keypad2 key was pressed.");
-
-        }
+        Instantiate(cofreEpico, transform.position, Quaternion.identity);
     }
 
 
