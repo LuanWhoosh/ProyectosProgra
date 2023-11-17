@@ -6,6 +6,7 @@ public class Checkpoint : MonoBehaviour
 {
     private EfectosSonoros misSonidos;
     private GameObject checkpoint;
+    public GameObject reaparecePrefab;
     void Start()
     {
         misSonidos = GetComponent<EfectosSonoros>();
@@ -26,9 +27,16 @@ public class Checkpoint : MonoBehaviour
         if (otro.tag == "Player")
         {
             print("El " + name + " colisiona con " + collision);
-            Vector3 posCheck = this.transform.position;
             misSonidos.reproducir("SUCCES");
-            print("La posicion de checkpoint " + posCheck);
+            GameManager.x = transform.position.x;
+            GameManager.y = transform.position.y;
+            GetComponent<BoxCollider2D>().enabled = false;
+            GameObject reaparece = Instantiate(reaparecePrefab);
+            reaparece.transform.position = this.transform.position;
+            Destroy(reaparece, 3f);
+
         }
     }
+
+    
 }
