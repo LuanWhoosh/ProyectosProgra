@@ -126,5 +126,18 @@ public class Personaje : MonoBehaviour
         return(vidas<= 0);
     }
 
+
+    public void festejo()
+    {
+        if (miPersonaje.tag == "Player")
+        {
+            miAnimador.SetTrigger("FESTEJO");
+            misSonidos.reproducir("FESTEJO");
+            print("SI ESTA");
+
+        }
+        
+
+    }
    
 }
